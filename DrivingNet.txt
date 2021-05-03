@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NEATnet speciesID="0" largestn="8" largestc="50">
+  <Neuron id="0" type="INPUT" />
+  <Neuron id="1" type="INPUT" />
+  <Neuron id="2" type="INPUT" />
+  <Neuron id="3" type="INPUT" />
+  <Neuron id="4" type="INPUT" />
+  <Neuron id="5" type="INPUT" />
+  <Neuron id="6" type="INPUT" />
+  <Neuron id="7" type="OUTPUT" />
+  <Neuron id="8" type="OUTPUT" />
+  <Connection id="0">
+    <from>0</from>
+    <to>7</to>
+    <weight>-0.01908435947295717</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="1">
+    <from>0</from>
+    <to>8</to>
+    <weight>-1.7908225484545222</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="2">
+    <from>1</from>
+    <to>7</to>
+    <weight>1.7446854947848336</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="3">
+    <from>1</from>
+    <to>8</to>
+    <weight>1.3419316627439242</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="35">
+    <from>2</from>
+    <to>1</to>
+    <weight>1.6920198169816443</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="4">
+    <from>2</from>
+    <to>7</to>
+    <weight>-0.7131693769371547</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="36">
+    <from>0</from>
+    <to>3</to>
+    <weight>1.101053301469466</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="5">
+    <from>2</from>
+    <to>8</to>
+    <weight>0.2913627499606788</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="6">
+    <from>3</from>
+    <to>7</to>
+    <weight>0.3822823090939188</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="7">
+    <from>3</from>
+    <to>8</to>
+    <weight>-0.9536007206218833</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="8">
+    <from>4</from>
+    <to>7</to>
+    <weight>0.22737007523540098</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="9">
+    <from>4</from>
+    <to>8</to>
+    <weight>-1.2343030155392882</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="10">
+    <from>5</from>
+    <to>7</to>
+    <weight>-0.6697755400774068</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="11">
+    <from>5</from>
+    <to>8</to>
+    <weight>-0.23552847881291716</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="12">
+    <from>6</from>
+    <to>7</to>
+    <weight>-1.4132133243913696</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="13">
+    <from>6</from>
+    <to>8</to>
+    <weight>0.39129931770699766</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="50">
+    <from>0</from>
+    <to>2</to>
+    <weight>0.30480369913435545</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="20">
+    <from>5</from>
+    <to>6</to>
+    <weight>0.6307774690872239</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="21">
+    <from>3</from>
+    <to>1</to>
+    <weight>-0.6150361538928806</weight>
+    <enabled>true</enabled>
+  </Connection>
+  <Connection id="31">
+    <from>1</from>
+    <to>5</to>
+    <weight>0.5720249661918244</weight>
+    <enabled>true</enabled>
+  </Connection>
+</NEATnet>
